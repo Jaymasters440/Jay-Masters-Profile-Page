@@ -1,4 +1,11 @@
 body {
-   
+
     background-color: rgb(164, 164, 221);
+}
+
+section {
+    height: 400px;
+    width: 80%;
+    margin: 30px auto;
+    border: 10px solid black;
 }
