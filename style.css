@@ -2,7 +2,10 @@ body {
 
     background-color: rgb(164, 164, 221);
 }
-
+header {
+    width: 100%;
+    border: 10px solid darkblue;
+    background-color: lightblue;
 section {
     height: 400px;
     width: 80%;
