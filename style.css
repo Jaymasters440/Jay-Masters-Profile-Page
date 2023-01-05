@@ -14,3 +14,7 @@ section {
     margin: 30px auto;
     border: 10px solid black;
 }
+h1{
+    text-align: center;
+    line-height: 100px;
+}
