@@ -3,7 +3,9 @@ body {
     background-color: rgb(164, 164, 221);
 }
 header {
+    height: 100px;
     width: 100%;
+    
     border: 10px solid darkblue;
     background-color: lightblue;
 section {
