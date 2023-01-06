@@ -3,12 +3,19 @@ body {
     background-color: rgb(164, 164, 221);
 }
 header {
+    height: 100px;
     width: 100%;
-    border: 10px solid darkblue;
+    
+    border: 10px solid rgb(34, 34, 142);
     background-color: lightblue;
+}
 section {
     height: 400px;
     width: 80%;
     margin: 30px auto;
     border: 10px solid black;
+}
+h1{
+    text-align: center;
+    line-height: 100px;
 }
