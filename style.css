@@ -4,7 +4,7 @@ body
 header {
     height: 100px;
     width: 95%;
-    background-image: url("https://images.pexels.com/photos/2440079/pexels-photo-2440079.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://archaeostore.com/wp-content/uploads/2022/07/Pyramid-of-the-Sun-Teotihuacan-Mexico-circa-1906..jpg");
 
     border: 10px solid rgb(34, 34, 142);
     /* background-color: lightblue; */
@@ -27,4 +27,7 @@ section {
 h1 {
     text-align: center;
     line-height: 100px;
+}
+img.self {
+    max-width: 300px;
 }
