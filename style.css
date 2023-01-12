@@ -12,10 +12,10 @@ header {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 10;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(17, 11, 11);
   }
   
   li {
@@ -31,7 +31,7 @@ ul {
   }
   
   li a:hover {
-    background-color: #111;
+    background-color: rgb(107, 37, 37);
   }
 section {
     height: 10px;
@@ -52,5 +52,5 @@ h1 {
     line-height: 100px;
 }
 img.self {
-    max-width: 300px;
+    max-width: 350px;
 }
