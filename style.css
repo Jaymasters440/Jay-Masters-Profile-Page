@@ -34,13 +34,7 @@ li a:hover {
 </head>
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#aboutme">About me</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#featured projects">Featured Projects</a></li>
-</ul>
-    
+   
 }
 
 section {
