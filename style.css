@@ -48,6 +48,29 @@ li a:hover {
   border-color: black;
 }
 
+ul {
+    list-style-type: none;
+    margin: 1;
+    padding: 10;
+    overflow: hidden;
+    background-color: rgb(17, 11, 11);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(107, 37, 37);
+  }
 section {
     height: 10px;
     width: 80%;
