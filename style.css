@@ -6,6 +6,7 @@ ul {
   background-color: #333;
 }
 
+
 li {
   float: left;
 }
@@ -41,19 +42,20 @@ header {
 li {
   float: left;
 }
-
+/*adding text to nav bar*/
 li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
-
+/* hover color added to red*/
 li a:hover {
   background-color: #111;
 }
-
+/* supposed to be the large Project box needs work*/
 #BigProject {
   width: 98%;
   height: 200px;
@@ -61,6 +63,7 @@ li a:hover {
   border-style: solid;
   border-color: black;
 }   
+/*small project boxes also needs work*/
 #SmallBox {display:flex;flex-wrap: wrap;}
 .Projects {
   width: 49%;
@@ -71,12 +74,12 @@ li a:hover {
 }
 
 ul {
-    list-style-type: none;
-    margin: 1;
-    padding: 10;
-    overflow: hidden;
-    background-color: rgb(17, 11, 11);
-  }
+  list-style-type: none;
+  margin: 1;
+  padding: 10;
+  overflow: hidden;
+  background-color: rgb(17, 11, 11);
+}
   
   li {
     float: left;
