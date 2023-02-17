@@ -22,12 +22,17 @@ li a {
 li a:hover {
   background-color: rgb(123, 25, 25);
 } 
-        
+
+body {
+  background-image: url("https://archaeostore.com/wp-content/uploads/2022/07/Pyramid-of-the-Sun-Teotihuacan-Mexico-circa-1906..jpg");
+  background-size: 100% auto;
+  
+}
 
 header {
     height: 100px;
     width: 95%;
-    background-image: url("https://archaeostore.com/wp-content/uploads/2022/07/Pyramid-of-the-Sun-Teotihuacan-Mexico-circa-1906..jpg");
+    
 
     border: 10px solid rgb(34, 34, 142);
 }
@@ -102,7 +107,8 @@ section {
     height: 10px;
     width: 80%;
     margin: 30px auto;
-    border: 10px solid black;
+    /* border: 10px solid black; */
+    background: rgba(255, 255, 255, 0.5);
 }
 
 section {
@@ -111,7 +117,7 @@ section {
     width: 80%;
     margin: 30px auto;
     padding: 30px ;
-    border: 10px solid black;
+    
 }
 
 h1 {
@@ -121,6 +127,7 @@ h1 {
 }
 h2 {
     text-align: center;
+  opacity: 1;
 }
 
 p {

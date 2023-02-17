@@ -6,30 +6,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
   <title>Jay Masters Profile</title>
   <link rel="stylesheet" href="style.css">
-  
+
 </head>
 
 <body>
   <header>
     <h1>Jay Masters' Profile</h1>
-<nav>
-  <ul class="menue">
-    <li><a href="#aboutme">About me</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#featured projects">Featured Projects</a></li>
-  </ul>
-</nav>
-    
+    <nav>
+      <ul class="menue">
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#featured projects">Featured Projects</a></li>
+      </ul>
+    </nav>
+
   </header>
 
   <section>
+    <div class="sectionDiv">
     <h2>About Me</h2>
-    
-    <img class= "self" src="./assets/selfImage.JPG"/>
-    <p>Real world experience lends to effective tools
-      real poeple can use. </p>
+
+    <img class="self" src="./assets/selfImage.JPG" />
+    <p><strong> Real world experience lends to effective tools
+      real poeple can use. </strong></p>
+    </div>
   </section>
 
   <div class="portfolio-grid">
@@ -42,28 +47,38 @@
   <section>
     <h2>Lifestyle</h2>
   </section>
-  <section id="featured-projects" >
+  <section id="featured-projects">
     <h2>Featured Projects</h2>
-    <div id="BigBox">
-      <div id="BigProject">
-        
-         
+    <div id="BigBox" class="container">
+      <div class="row">
+        <div id="BigProject" class="col">
+
+
+        </div>
       </div>
-    
-      <div id="SmallBox">
-        <div class="Projects">
+      <div id="SmallBox" class="row">
+
+        <div class="Projects col">
           <a href="https://btay786.github.io/1-project-to-rule/">
             <img src="assets/Bookemon.png" alt="Example of working website" style="width: 200px; height:180px">
           </a>
         </div>
-        <div class="Projects"></div>
-        <div class="Projects"></div>
-        <div class="Projects"></div>
-        <div class="Projects"></div>
-        <div class="Projects"></div>
+        <div class="Projects col">
+          <a href="https://jaymasters440.github.io/Jay-Masters-Profile-Page/">
+          </a>
+        </div>
+        <div class="Projects col"></div>
+      </div>
+      <div id="SmallBox" class="row">
+        <div class="Projects col"></div>
+        <div class="Projects col"></div>
+        <div class="Projects col"></div>
       </div>
     </div>
   </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 
